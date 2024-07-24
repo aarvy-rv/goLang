@@ -42,4 +42,7 @@ func main() {
 	}
 	fmt.Println(prices)
 
+	web := map[string]string{"Google": "www.google.com", "Amazon": "https://aws.com"}
+	fmt.Println(web)
+
 }
